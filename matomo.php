@@ -28,6 +28,9 @@ class MatomoPlugin extends Plugin
             'onPluginsInitialized' => [
                 ['autoload', 100000], // TODO: Remove when plugin requires Grav >=1.7
                 ['onPluginsInitialized', 0]
+            ],
+            'onPageInitialized' => [
+                ['onPageInitialized', 0]
             ]
         ];
     }
@@ -83,6 +86,14 @@ class MatomoPlugin extends Plugin
 
     public function onPageInitialized(Event $event)
     {
+        // Sets a cookie for users who log in to the admin panel to exclude them from web analytics.
+        if ($this->isAdmin() && $this->grav['user']->authenticated) { 
+            $cookieName = $this->config->get('plugins.matomo.blocking_cookie', 'blockMatomo');
+            if (!isset($_COOKIE[$cookieName])) {
+                setcookie($cookieName, 'true', time() + (86400 * 365), '/', '', true, false);
+            }
+        }
+        
         $page = $event['page'];
 
         // Merge configs and then check for the active flag per page
