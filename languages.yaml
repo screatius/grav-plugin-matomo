@@ -31,3 +31,70 @@ en:
     DEVELOPMENT: 'Development'
     ENABLE_DEBUG: 'Enable Debug Output'
     ENABLE_DEBUG_HELP: "Enable this to add debug output about blocking reasons to the page's HTML source."
+es:
+  PLUGIN_MATOMO:
+    CONNECTION: 'Conexión'
+    MATOMO_URL: 'Matomo URL'
+    MATOMO_URL_HELP: 'La URL de tu instalación de Matomo'
+    SITE_ID: 'Site Id'
+    SITE_ID_HELP: 'Si vas a realizar mediciones en varias páginas web, debes especificar el identificador de la página. Consulta https://matomo.org/faq/general/faq_19212/'
+    MATOMO_TOKEN: 'Token de Matomo'
+    MATOMO_TOKEN_HELP: 'El token de autenticación de Matomo. Véase https://matomo.org/faq/general/faq_114/'
+    PRIVACY: 'Privacidad'
+    RESPECT_DO_NOT_TRACK: 'Respetar la configuración del navegador «No rastrear»'
+    RESPECT_DO_NOT_TRACK_HELP: 'Si el navegador envía un encabezado «Do Not Track», la visita no se contabilizará.'
+    ENABLE_COOKIES: 'Activar las cookies'
+    ENABLE_COOKIES_HELP: 'Se puede utilizar para instalar cookies con el fin de mejorar el seguimiento de los usuarios. Ten en cuenta que esto puede requerir la inclusión de un banner de cookies adicional para cumplir con el RGPD/DSGVO.'
+    ENABLE_JAVASCRIPT: 'Activar Javascript'
+    ENABLE_JAVASCRIPT_HELP: 'Habilitar el seguimiento del lado del cliente mediante JavaScript.'
+    BLOCKED_IP_ADDRESSES: "Direcciones IP de clientes bloqueados"
+    BLOCKED_IP_ADDRESSES_HELP: "Desactiva el seguimiento de Matomo para los clientes con las direcciones IP indicadas."
+    BLOCKED_IP_ADDRESSES_VALUE: "Direcciones IP"
+    BLOCKED_IP_RANGES: "Rangos de direcciones IP de clientes bloqueados"
+    BLOCKED_IP_RANGES_HELP: "Desactiva el seguimiento de Matomo para los clientes que se encuentren en los rangos de direcciones IPv4 o IPv6 indicados."
+    BLOCKED_IP_RANGES_VALUE: "Rango de direcciones IP (por ejemplo, «10.4.3.1-10.4.3.20»), o «privado», «loopback» o «link-local»"
+    BLOCKING_COOKIE: "Cookie de bloqueo"
+    BLOCKING_COOKIE_HELP: "Nombre de la cookie de bloqueo que, al activarse, desactiva el seguimiento de Matomo."
+    DASHBOARD_HEADLINE: 'Panel de control de Matomo'
+    DASHBOARD: 'Panel de control'
+    DASHBOARD_SITE_ID: 'ID del sitio del panel de control'
+    DASHBOARD_SITE_ID_HELP: 'ID opcional para mostrar en el panel de control. Por defecto, se utiliza el ID del sitio rastreado.'
+    DASHBOARD_TOKEN: 'Token del Panel de control'
+    DASHBOARD_TOKEN_HELP: 'Para utilizar el panel de control, debes añadir un nuevo usuario con acceso de solo lectura: https://matomo.org/docs/embed-matomo-reports/#embed-piwik-widgets-on-a-password-protected-or-private-page'
+    DEVELOPMENT: 'Desarrollo'
+    ENABLE_DEBUG: 'Activar la salida de depuración'
+    ENABLE_DEBUG_HELP: "Activa esta opción para añadir información de depuración sobre los motivos del bloqueo al código fuente HTML de la página."
+ca:
+  PLUGIN_MATOMO:
+    CONNECTION: "Connexió"
+    MATOMO_URL: "Matomo URL"
+    MATOMO_URL_HELP: "L'URL de la teva instal·lació de Matomo"
+    SITE_ID: "Site Id"
+    SITE_ID_HELP: "Si realitzaràs medicions en varies pàgines web, has d'especificar l'identificador de la pàgina. Consulta https://matomo.org/faq/general/faq_19212/"
+    MATOMO_TOKEN: "Token de Matomo"
+    MATOMO_TOKEN_HELP: "El token d'autenticació de Matomo. Consulta https://matomo.org/faq/general/faq_114/"
+    PRIVACY: "Privacitat"
+    RESPECT_DO_NOT_TRACK: "Respectar la configuració del navegador «No rastrejar»"
+    RESPECT_DO_NOT_TRACK_HELP: "Si el navegador envía una capçalera «Do Not Track», la visita no es comptabilizarà."
+    ENABLE_COOKIES: "Activar les cookies"
+    ENABLE_COOKIES_HELP: "Es pot utilizar per instal·lar cookies amb la finalitat de millorar el seguiment dels usuaris. Tingues en compte que això pot requerir la inclusió d'un avís de cookies addicional per complir amb el RGPD/DSGVO."
+    ENABLE_JAVASCRIPT: "Activar Javascript"
+    ENABLE_JAVASCRIPT_HELP: "Habilitar el seguiment del costat del client mitjançant JavaScript."
+    BLOCKED_IP_ADDRESSES: "Direccions IP de clients bloquejats"
+    BLOCKED_IP_ADDRESSES_HELP: "Desactiva el seguiment de Matomo als clients amb les direccions IP indicades."
+    BLOCKED_IP_ADDRESSES_VALUE: "Direccions IP"
+    BLOCKED_IP_RANGES: "Rangs de direccions IP de clients bloquejats"
+    BLOCKED_IP_RANGES_HELP: "Desactiva el seguiment de Matomo als clients que es trobin dins els rangs de direccions IPv4 o IPv6 indicats."
+    BLOCKED_IP_RANGES_VALUE: "Rang de direccions IP (per exemple, «10.4.3.1-10.4.3.20»), o «privat», «loopback» o «link-local»"
+    BLOCKING_COOKIE: "Cookie de bloqueig"
+    BLOCKING_COOKIE_HELP: "Nom de la cookie de bloqueig que, en activar-se, desactiva el seguiment de Matomo."
+    DASHBOARD_HEADLINE: "Panell de control de Matomo"
+    DASHBOARD: "Panell de control"
+    DASHBOARD_SITE_ID: "ID del lloc del panell de control"
+    DASHBOARD_SITE_ID_HELP: "ID opcional per mostrar al panell de control. Per defecte, s'usa l'ID del lloc web rastrejat."
+    DASHBOARD_TOKEN: "Token del Panell de control"
+    DASHBOARD_TOKEN_HELP: "Per usar el panell de control, has d'afegir un nou usuari amb accés de només lectura: https://matomo.org/docs/embed-matomo-reports/#embed-piwik-widgets-on-a-password-protected-or-private-page"
+    DEVELOPMENT: "Desenvolupament"
+    ENABLE_DEBUG: "Activar la sortida de depuració"
+    ENABLE_DEBUG_HELP: "Activa aquesta opció per afegir informació de depuració sobre els motius del bloqueig al codi font HTML de la pàgina."
+
